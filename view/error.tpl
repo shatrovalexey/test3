@@ -1,0 +1,1 @@
+<div class="page-error">{$data.data.message}</div>

@@ -1,0 +1,145 @@
+[
+    {
+        "name": "nia/collection-map-stringmap",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nia-php/collection-map-stringmap.git",
+            "reference": "83d2a0e4919abde9bf1c169fd7608637f80fd6f8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nia-php/collection-map-stringmap/zipball/83d2a0e4919abde9bf1c169fd7608637f80fd6f8",
+            "reference": "83d2a0e4919abde9bf1c169fd7608637f80fd6f8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0.0"
+        },
+        "time": "2016-02-21 17:27:29",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Nia\\Collection\\Map\\StringMap\\": "sources/",
+                "Test\\Nia\\Collection\\Map\\StringMap\\": "tests/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Patrick Ullmann",
+                "email": "patrick.ullmann@nat-software.de",
+                "role": "lead"
+            }
+        ],
+        "description": "nia component for string maps.",
+        "homepage": "http://www.nat-software.de",
+        "keywords": [
+            "collection",
+            "map",
+            "nia",
+            "string"
+        ]
+    },
+    {
+        "name": "nia/requestresponse",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nia-php/requestresponse.git",
+            "reference": "861ea807a6c0469a8f788eff57cb596f8ca48ea7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nia-php/requestresponse/zipball/861ea807a6c0469a8f788eff57cb596f8ca48ea7",
+            "reference": "861ea807a6c0469a8f788eff57cb596f8ca48ea7",
+            "shasum": ""
+        },
+        "require": {
+            "nia/collection-map-stringmap": "*",
+            "php": ">=7.0.0"
+        },
+        "time": "2016-02-06 23:52:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Nia\\RequestResponse\\": "sources/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Patrick Ullmann",
+                "email": "patrick.ullmann@nat-software.de",
+                "role": "lead"
+            }
+        ],
+        "description": "nia interface collection component request response design pattern.",
+        "homepage": "http://www.nat-software.de",
+        "keywords": [
+            "nia",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "nia/routing",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nia-php/routing.git",
+            "reference": "10321cb273cc9ab879057bb21c3a05c668aa24fb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nia-php/routing/zipball/10321cb273cc9ab879057bb21c3a05c668aa24fb",
+            "reference": "10321cb273cc9ab879057bb21c3a05c668aa24fb",
+            "shasum": ""
+        },
+        "require": {
+            "nia/requestresponse": "*",
+            "php": ">=7.0.0"
+        },
+        "time": "2016-02-07 00:01:02",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Nia\\Routing\\": "sources/",
+                "Test\\Nia\\Routing\\": "tests/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Patrick Ullmann",
+                "email": "patrick.ullmann@nat-software.de",
+                "role": "lead"
+            }
+        ],
+        "description": "The routing component routes a request through filters to a handler that will convert it to a response.",
+        "homepage": "http://www.nat-software.de",
+        "keywords": [
+            "filter",
+            "nia",
+            "request",
+            "response",
+            "router",
+            "routing"
+        ]
+    }
+]

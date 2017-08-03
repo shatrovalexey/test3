@@ -1,0 +1,53 @@
+{
+	"charset" : "utf-8" ,
+	"author" : "Шатров Алексей <mail[at]ashatrov.ru>" ,
+	"db" : {
+		"dsn" : "mysql:dbname=test3;host=localhost" ,
+		"user" : "test3" ,
+		"password" : "test3" ,
+		"charset" : "utf8"
+	} ,
+	"view" : {
+		"index" : "index" ,
+		"default" : "default" ,
+		"error" : "error" ,
+		"pattern" : "%s/%s.tpl" ,
+		"path" : "../../view" ,
+		"compiled" : "../../tmp" ,
+		"meta" : {
+			"title" : "Тестовое задание №1"
+		}
+	} ,
+	"router" : {
+		"action" : "%sAction" ,
+		"map" : {
+			"" : "index" ,
+			"position" : "position" ,
+			"position-create" : "positionCreate" ,
+			"employer" : "employer" ,
+			"message" : "message"
+		}
+	} ,
+	"http" : {
+		"version" : "HTTP/1.0" ,
+		"header" : {
+			"pattern" : "%s %d %s" ,
+			"sub_pattern" : "%s: %s" ,
+			"default" : "Content-Type: text/html; charset=utf-8" ,
+			"default_name" : "Content-Type" ,
+			"javascript" : "text-javascript"
+		} ,
+		"state" : {
+			"200" : "OK" ,
+			"404": "Not found"
+		}
+	} ,
+	"ctrl" : {
+		"page_size" : 30
+	} ,
+	"message" : {
+		"ask" : {
+			"delete" : "Продолжить удаление?"
+		}
+	}
+}

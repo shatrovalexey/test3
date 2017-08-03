@@ -1,0 +1,1 @@
+window.${$result.key} = {$result.data|json_encode} ;

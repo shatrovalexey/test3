@@ -1,0 +1,70 @@
+.both {
+	clear: both ;
+}
+.table-results {
+	width: 100% ;
+	border-collapse: collapse ;
+}
+.table-results ,
+.table-results th ,
+.table-results td {
+	border: 1px #000000 solid ;
+	padding: 4px ;
+}
+.table-results-col-id {
+	width: 70px ;
+}
+.table-results-cell-id {
+	text-align: right ;
+}
+.table-results-col-title {
+	width: 200px ;
+}
+.table-results-footer {
+	margin: 10px 0 ;
+}
+.table-results-pager > ul {
+	list-style-type: none ;
+}
+.table-results-pager > ul > li {
+	float: left;
+	margin: 2px;
+	padding: 2px;
+}
+.table-results-col-_actions {
+	width: 20px ;
+}
+.table-results-form-fields span {
+	display: block ;
+	float: left ;
+	width: 10% ;
+}
+.table-results-form-fields input ,
+.table-results-form-fields textarea ,
+.table-results-form-fields select {
+	width: 85% ;
+}
+.table-results-form-create {
+	margin: 20px 0 ;
+}
+.table-results-form-fields {
+	margin: 10px 0 ;
+}
+.page-navigation ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+.page-navigation li {
+	float: left ;
+	display: block ;
+	margin: 0 5px ;
+}
+.page-navigation li.both {
+	clear: both ;
+}
+.table-results-row {
+	cursor: pointer ;
+}
+.table-results-row:hover {
+	background-color: LightYellow ;
+}
