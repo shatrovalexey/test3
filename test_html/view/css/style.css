@@ -207,6 +207,7 @@ a {
 	height: 38px ;
 	width: auto ;
 	text-transform: uppercase ;
+	cursor: pointer ;
 }
 .page-right-testimonial > blockquote {
 	margin: 0 ;
@@ -291,6 +292,8 @@ a {
 .page-footer-shares-tw ,
 .page-footer-shares-in {
 	float: left ;
+	width: 48px ;
+	height: 45px ;
 }
 .page-footer-shares-fb {
 	background-image: url( "../i/s1.gif" ) ;
@@ -308,4 +311,13 @@ a {
 .page-right-form {
 	margin: 0 auto 40px;
 	width: 250px;
+}
+.page-footer-overlay {
+	max-width: 1082px ;
+	margin: 0 auto ;
+	width: 100% ;
+}
+.page-right-form input:focus ,
+.page-right-form textarea:focus {
+	border-color: #000000 ;
 }
