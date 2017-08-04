@@ -1,4 +1,5 @@
 jQuery( function( ) {
+	// обработка редактирования записей в таблице
 	var $form = jQuery( ".table-results-form-create" ) ;
 
 	jQuery( ".table-results-cell[data-name]" ).on( "click" , function( ) {
