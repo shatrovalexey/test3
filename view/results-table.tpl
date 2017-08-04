@@ -69,6 +69,7 @@
 					data-name="{$header.name|htmlspecialchars}"
 					data-value="{$row[$header.name]|htmlspecialchars}"
 					data-key="{$header.key|htmlspecialchars}"
+					data-type="{$header.type|htmlspecialchars}"
 					class="table-results-cell table-results-cell-{$header.name|htmlspecialchars}"
 				>
 					{if $header.key == "pri"}
@@ -88,7 +89,7 @@
 					</div>
 				</td>
 				{/foreach}
-				<td class="table-results-cell">
+				<td class="table-results-cell table-results-col-_actions">
 					<a href="?id={$row.id}&amp;action=delete" title="удалить" class="table-results-delete">X</a>
 				</td>
 			</tr>

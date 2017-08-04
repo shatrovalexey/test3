@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-08-03 23:22:20
+/* Smarty version 3.1.31, created on 2017-08-04 07:47:22
   from "/mnt/sdb1/www/test2/view/results-table.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_598385fcecba85_80034198',
+  'unifunc' => 'content_5983fc5a5b87a0_64905030',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '95544168e9a5de9eeb0e47a060557f5b43110980' => 
     array (
       0 => '/mnt/sdb1/www/test2/view/results-table.tpl',
-      1 => 1501791731,
+      1 => 1501822022,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_598385fcecba85_80034198 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5983fc5a5b87a0_64905030 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <h2><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['result']->value['data']['rows']['table']['comment']);?>
@@ -153,6 +153,8 @@ foreach ($_from as $_smarty_tpl->tpl_vars['header']->value) {
 "
 					data-key="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['header']->value['key']);?>
 "
+					data-type="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['header']->value['type']);?>
+"
 					class="table-results-cell table-results-cell-<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['header']->value['name']);?>
 "
 				>
@@ -192,7 +194,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
 ?>
 
-				<td class="table-results-cell">
+				<td class="table-results-cell table-results-col-_actions">
 					<a href="?id=<?php echo $_smarty_tpl->tpl_vars['row']->value['id'];?>
 &amp;action=delete" title="удалить" class="table-results-delete">X</a>
 				</td>

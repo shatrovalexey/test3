@@ -32,7 +32,13 @@
 	padding: 2px;
 }
 .table-results-col-_actions {
-	width: 20px ;
+	width: 15px ;
+	text-align: center ;
+}
+.table-results-col-_actions a {
+	text-decoration: none ;
+	font-family: Tahoma ;
+	color: #000000 ;
 }
 .table-results-form-fields span {
 	display: block ;
@@ -49,6 +55,9 @@
 }
 .table-results-form-fields {
 	margin: 10px 0 ;
+}
+.table-results-cell[data-type="number"] {
+	text-align: right ;
 }
 .page-navigation ul {
 	list-style-type: none;
